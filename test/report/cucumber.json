@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "health-check;app-is-ok",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "App is ok",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "user call health-check",
+            "match": {
+              "location": "test/features/steps/simple.e2e-spec.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27081695
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "user should get truthy response",
+            "match": {
+              "location": "test/features/steps/simple.e2e-spec.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150108
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "health-check",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Health check",
+    "tags": [],
+    "uri": "test/features/simple.feature"
+  }
+]
